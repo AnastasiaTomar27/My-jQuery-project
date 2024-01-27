@@ -13,7 +13,7 @@ $(document).ready(function(){
             .css("border", "3px dashed red");
 
     //  Piilota header alla oleva div-elementit
-    //$("header div").hide("slow");
+    $("header div").hide("slow");
 
     //Lisää luokka selected kaikille listaelementeille
     $("li").addClass("selected");
@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
 
     //Aseta kaikkien linkkien target-attribuutti "_blank":ksi
-    //$("a").attr("target", "_blank");
+    $("a").attr("target", "_blank");
 
     //Näytä tai piilota navi "What our clients say" -napin painalluksella
     $("section h2").click(function(){
