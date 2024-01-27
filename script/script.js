@@ -13,7 +13,7 @@ $(document).ready(function(){
             .css("border", "3px dashed red");
 
     //  Piilota header alla oleva div-elementit
-    $("header div").hide();
+    $("header div").hide("slow");
 
     //Lisää luokka selected kaikille listaelementeille
     $("li").addClass("selected");
